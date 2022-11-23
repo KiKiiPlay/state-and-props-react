@@ -4,8 +4,8 @@ const BookList = ({ arr }) => {
   return (
     <>
       <div className="d-flex flex-wrap justify-content-center">
-        {arr.map((title) => {
-          return <SingleBook id={title} />;
+        {arr.map((book) => {
+          return <SingleBook book={book} />;
         })}
       </div>
     </>
